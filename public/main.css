@@ -1,3 +1,159 @@
 body{
-  background: rgb(238,238,238,.8);
+  background: #4f97ff;
 }
+
+h1 {
+  color:#b1d3ff;
+  font-family:helvetica;
+  font-variant: small-caps;
+  border:8px inset black;
+  vertical-align: center;
+  padding: 5px;
+  width: 130px;
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+a {
+  color:#b1d3ff;
+  font-family:helvetica;
+  font-variant: small-caps;
+  border:3px inset black;
+  font-size: 24px;
+  padding: 6px;
+  margin:10px;
+  background: rgba(113, 193, 243, .7);
+}
+a:hover {
+  color: black;
+  font-family:helvetica;
+  font-variant: small-caps;
+  border:3px outset white;
+  font-size: 24px;
+  padding: 6px;
+}
+
+.panel {
+  border:1px dotted gray;
+  height:80%;
+  width: 333px;
+  padding:12px;
+  background: rgba(113, 193, 243, .7);
+}
+.dblborder {
+  border:5px outset #6780d7;
+  width:240px;
+  background: #718df6;
+
+}
+
+.dblborder:hover {
+  border:5px outset #6780d7;
+  width:240px;
+  background: white;
+
+}
+
+.name {
+  margin-bottom:55px;
+  color:#b1d3ff;
+  font-family:helvetica;
+  font-variant: small-caps;
+  border:1px inset black;
+  font-size: 24px;
+  height: 77px;
+  vertical-align: center;
+
+}
+
+/*-------------------------- FOR NEW ENTRY PAGE ----------------------*/
+#subform {
+  display: vertical-block;
+}
+
+#new {
+  font-size: 33px;
+  margin:33px;
+
+
+
+}
+#newlabel {
+  color:#b1d3ff;
+  font-family:helvetica;
+  font-variant: small-caps;
+  font-size: 33px;
+  border:1px inset black;
+  vertical-align: center;
+  padding: 5px;
+  width: 130px;
+  margin: 33px;
+
+}
+
+#subbutton {
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: helvetica;
+  height: 2em;
+  width: 200px;
+
+
+}
+
+/*------------------- EDIT ENTRY PAGE ----------------------*/
+
+.details {
+   color:#b1d3ff;
+  font-family:helvetica;
+  font-variant: small-caps;
+  font-size: 33px;
+  border:1px inset black;
+  vertical-align: center;
+  padding: 5px;
+  width: 250px;
+  margin: 33px;
+}
+#edit {
+  font-size: 33px;
+  margin:33px;
+  font-family: helvetica;
+
+}
+#editlabel {
+  color:#b1d3ff;
+  font-family:helvetica;
+  font-variant: small-caps;
+  font-size: 33px;
+  border:1px inset black;
+  vertical-align: center;
+  padding: 5px;
+  width: 130px;
+  margin: 33px;
+}
+#deletelabel {
+  color:#b1d3ff;
+  font-family:helvetica;
+  font-variant: small-caps;
+  font-size: 33px;
+  border:1px inset black;
+  vertical-align: center;
+  padding: 5px;
+  width: 130px;
+  margin: 33px;
+}
+
+#deletebutton {
+  width: 200px;
+  height:20px;
+  margin-left: 60px;
+}
+
+
+
+
+
+
+
+
+

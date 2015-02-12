@@ -8,13 +8,25 @@
   <script src = "/hello.js"></script>
 </head>
 <body>
-  <h1>Here are our users!</h1>
-  <% @users.each do |user| %>
-    <h2><%= user[:name]%></h2><a href="/users/<%= user[:id]%>"> Edit a user</a>
 
+  <center>
+  <div class="panel">
+  <h1>Join our Database of Human Beings</h1>
+  <% @users.each do |user| %>
+    <div class="name"><h2><%= user[:name]%></h2><a href="/users/<%= user[:id]%>"> Edit a user</a></div>
+  
   <% end %>
+  <div class="dblborder">
   <p>
-    <a href="/users/new">Add a user!</a>
+    <a href="/users/new">Become a Statistic!</a>
   </p>
+  </div>
+  </div>
+  </center>
+  <script type="text/javascript">
+$(function() {
+  $("").focus();
+});
+  </script>
 </body>
 </html>

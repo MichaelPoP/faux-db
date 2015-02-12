@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Edit User</title>
+  <link rel="stylesheet" href="/main.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+<!-- ------------------EDIT FORM----------------- -->
+
+<form action="/users/<%= @user[:id] %>" method="POST">
+<input type="hidden" name="_method" value="PUT"> 
+  <div>
+     <h3 class="details"> User Name: <%= @user[:name] %> </h3>
+     <h3 class="details"> User ID: <%= @user[:id] %> </h3>
+    <label id="editlabel" for="first">Self Identification:</label>
+    <input id="edit" type="text" name="name" value="<%= @user[:name] %>">
+
+  </div>
+<!--   <div>
+    <label for="last"> Last name:</label>
+    <input type="text" name="last">
+  </div> -->
+  
+</form> 
+
+<!-- --------------DELETE FORM--------------- -->
+
+<form action="/users/<%= @user[:id] %>" method="POST">
+<input type="hidden" name="_method" value="DELETE"> 
+  <div>
+    
+    <label id="deletelabel" for="delete">Delete Yourself:</label>
+    <input id="deletebutton" type="submit" name="delete" value="delete">
+
+  </div>
+<!--   <div>
+    <label for="last"> Last name:</label>
+    <input type="text" name="last">
+  </div> -->
+  
+</form> 
+
+
+
+
+<script type="text/javascript">
+$(function() {
+  $("#edit").focus();
+});
+  </script>
+</body>
+</html>
+
+

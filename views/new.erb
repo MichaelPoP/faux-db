@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NEW ENTRY</title>
+   <link rel="stylesheet" href="/main.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src = "/hello.js"></script>
+</head>
+<body>
+  
+
+<form id="subform" action="/users" method="post">
+
+  <div class="container"> 
+<!--     <label id="newlabel" for="first"> Self Identify: </label> -->
+    <center>
+    <h2 id="newlabel">Self Identify: </h2>
+    <input id="new" type="text" name="name">
+    </center>
+  </div>
+
+<!--   <div>
+    <label for="last"> Last name:</label>
+    <input type="text" name="last">
+  </div> -->
+<center>
+  <input id="subbutton" type="submit" value="Add User">
+</form> 
+</center>
+
+
+<script type="text/javascript">
+$(function() {
+  $("#new").focus();
+});
+  </script>
+
+</body>
+</html>
